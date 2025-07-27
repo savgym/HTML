@@ -10,51 +10,7 @@ body {
   margin: 10px;
 }
 
-.container2 {
-  height: 100vh;
-  display: grid;
-  /* 3x2 */
-  /* grid-template-rows: repeat(3, 100px);
-  grid-template-columns: repeat(2, 100px); */
-  grid-template: repeat(3, 100px) / repeat(2, 100px);
-  border: 3px solid lightgray;
-  /* justify-items (along the horizontal axis
-   align-items (along the vertical axis) αυτα για το grid ,συγκεκριμενα τα boxeies*/
-  justify-items: center;
-  align-items: center;
-  /*για ολο το grid  ,το μεσα */
-  justify-content: center;
-  align-content: center;
-}
-
-.box2 {
-  width: 5rem;
-  height: 5rem;
-  background: gold;
-}
-
-.container {
-  display: grid;
-  grid-template: 100px auto 100px / 30fr 70fr;
-  /* row-gap: 10px;
-  column-gap: 10px; */
-  grid-template-areas:
-    "header   header"
-    "sidebar   main"
-    ".   footer";
-  gap: 10px 10px;
-  border: 3px solid lightgray;
-  height: 100vh;
-}
-.box {
-  background: gold;
-}
-.box-one {
-  /* grid-column: 1/3;
-  grid-row: 2/4; */
-  /* grid-column: 1 / span 2; */
-  grid-area: header;
-}
-.box-four {
-  grid-area: footer;
+.first {
+  /* display: none; */
+  visibility: hidden;
 }
