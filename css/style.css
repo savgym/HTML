@@ -6,43 +6,22 @@
 /* html {
   font-size: 62.5%;
 } */
+@font-face {
+  font-family: "opensans";
+  src: url("fonts/open-sans/opensans-bold-webfont.woff2") format("woff2"),
+    url("fonts/open-sans/opensans-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "opensans";
+  src: url("fonts/open-sans/opensans-regular-webfont.woff2") format("woff2"),
+    url("fonts/open-sans/opensans-regular-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
 body {
   margin: 10px;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-}
-
-.box {
-  background: gold;
-  padding: 1rem;
-}
-
-.box:nth-of-type(2) {
-  background: dodgerblue;
-}
-
-@media screen and (min-width: 600px) {
-  .container {
-    flex-direction: row;
-  }
-}
-
-@media screen and (min-width: 900px) {
-  .container {
-    flex-direction: row;
-  }
-  .box {
-    background: white;
-  }
-}
-@media print {
-  body {
-    font-size: 12pt;
-  }
-  .box {
-    padding: 0.5cm;
-  }
+  font-family: "opensans", Arial, Helvetica, sans-serif;
 }
