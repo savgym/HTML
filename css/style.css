@@ -12,6 +12,8 @@
     url("fonts/open-sans/opensans-bold-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+  /* ego to evala */
+  font-display: optional;
 }
 
 @font-face {
@@ -20,8 +22,9 @@
     url("fonts/open-sans/opensans-regular-webfont.woff") format("woff");
   font-weight: bold;
   font-style: normal;
+  font-display: optional;
 }
 body {
   margin: 10px;
-  font-family: "opensans", Arial, Helvetica, sans-serif;
+  font-family: "Bitcount Prop Single", Arial, Helvetica, sans-serif;
 }
