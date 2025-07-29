@@ -30,6 +30,8 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1rem;
   line-height: 1.5;
+  letter-spacing: 1px;
+  word-spacing: 5px;
 }
 h1,
 h2,
@@ -39,4 +41,8 @@ h4 {
 }
 h1 {
   margin: 3rem 0 1rem;
+}
+/* sos */
+p {
+  width: 50ch;
 }
