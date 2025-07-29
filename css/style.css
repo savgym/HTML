@@ -45,4 +45,7 @@ h1 {
 /* sos */
 p {
   width: 50ch;
+  column-count: 2;
+  column-gap: 2rem;
+  column-rule: 3px dotted #999;
 }
