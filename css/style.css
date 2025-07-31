@@ -1,8 +1,15 @@
-form {
-  width: 50%;
-  padding: 2rem;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-textarea {
-  resize: none;
+.box {
+  width: 100px;
+  height: 100px;
+  background: gold;
+}
+.box:hover {
+  transform: rotate(15deg);
 }
